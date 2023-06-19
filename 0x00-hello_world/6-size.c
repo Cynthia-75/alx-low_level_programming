@@ -3,6 +3,7 @@
  * main - print the size of data types
  *
  * Return: Always 0
+ *
  */
 int main(void)
 {
