@@ -3,15 +3,12 @@
 /**
  * main - Entry point
  *
- * Description: 'prints putchar to stdout'
- *
- * Return: always 0
+ * Return: Always 0
  */
 
 int main(void)
 
 {
-
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -23,4 +20,5 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
+
 }
