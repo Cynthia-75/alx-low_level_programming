@@ -1,27 +1,15 @@
 #include "main.h"
 
 /**
- * print_sign - prints the sign of a number
- * @n: the number of the sign to be printed
- * Return: 1 if number is greater than zero
- * 0 of number is zero
- * -1 if number is less than zero
+ * _isalpha - checks for alphabets
+ * @c: character to be checked
+ *
+ * Return: 1 if character is a letter,0 otherwise
  */
-int print_sign(int n)
+int _isalpha(int c)
 {
-	if (n > 0)
-	{
-		_putchar('+');
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'z'))
 		return (1);
-	}
-	else if (n == 0)
-	{
-		_putchar('48');
+	else
 		return (0);
-	}
-	else if (n < 0)
-	{
-		_putchar('_');
-	}
-	return (0);
 }
