@@ -3,7 +3,7 @@
  * print_number - prints an integer
  * @n:.input integer parameter
  *
- * Return: Always 0
+ * Return:Always 0
  */
 void print_number(int n)
 {
@@ -12,7 +12,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar(45);
-		i = i;
+		i = -i;
 	}
 	if (i / 10)
 	{
